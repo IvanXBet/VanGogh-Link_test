@@ -1,0 +1,29 @@
+.promo {
+    height: 413px;
+    width: 100%;
+    background: #F8F8F8 center (center/cover) no-repeat;
+    position: relative;
+    padding-top: 65px;
+    &__img {
+        max-width: 804px;
+        max-height: 412px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+    }
+    &__title {
+        position: relative;
+        z-index: 3;
+        width: 750px;
+    }
+    &__btn {
+        margin-top: 40px;
+    }
+}

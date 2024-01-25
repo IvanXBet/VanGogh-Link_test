@@ -1,0 +1,16 @@
+.btn {
+    color:#FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 290px;
+    height: 50px;
+    padding: 0px 32px;
+    border-radius: 8px;
+    border: 1px solid $main-red;
+    background: $main-red;
+    &:hover {
+        border: 1px solid #F25655;
+        background: #F25655;
+    }
+}

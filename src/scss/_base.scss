@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    max-width: 1441px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.divider {
+    width: 330px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+
+.title {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 65px */
+}
