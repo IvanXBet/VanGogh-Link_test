@@ -72,4 +72,18 @@
         font-weight: 600;
         line-height: 150%; /* 24px */
     }
+    &__humburger {
+        display: none;
+        span {
+            display: block;
+            width: 24px;
+            height: 3px;
+            background-color: $main-red;
+            margin-top: 3px;
+            &:first-child {
+                margin-top: 0px;
+            }
+        }
+        
+    }
 }
